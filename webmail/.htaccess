@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^webmail\.tiltmanplace\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webmail\.tiltmanplace\.co\.uk$
+RewriteRule ^/?$ "https\:\/\/r4\-london\.webserversystems\.com\:2096\/3rdparty\/roundcube\/\?_task\=mail" [R=301,L]
+
